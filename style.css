@@ -12,19 +12,34 @@ body {
 	flex-direction: column;
 }
 
-table {
+
+table.table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
-
-
-td, th {
+table.table th, td {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 5px;
 }
 
+table.table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.table1 td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+
+table.table1 th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+}
 .programheader {
 	background-color: #d0d0d0;
 }
@@ -234,5 +249,11 @@ a:hover {
 
 .support-img {
 	height: 50px;
+	padding: 20px;
+}
+
+.speaker-img {
+	height: 200;
+    width: 200px;
 	padding: 20px;
 }
