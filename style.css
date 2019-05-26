@@ -13,12 +13,12 @@ body {
 }
 
 
-table.table {
+table.table2 {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
-table.table th, td {
+table.table2 th, td {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 5px;
