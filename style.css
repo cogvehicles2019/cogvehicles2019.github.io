@@ -173,6 +173,12 @@ a:hover {
 	font-size: 1.1em;
 }
 
+.organizer-img {
+    height: 200px;
+    width: 150px;
+	padding: 20px;
+}
+
 .multi-column {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
